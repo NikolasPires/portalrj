@@ -1,0 +1,41 @@
+section {
+    width: 100vw;
+}
+
+
+.home {
+    font-family: var(--font-secondary);
+    text-align: center;
+}
+
+.apresentacao {
+    width: 100vw;
+    height: 400px;
+    background-image: url('../assets/images/portal-rj-parede-tijolos.jpg');
+    background-size: cover;
+    background-position: center ;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresentacao h1 {
+    font-family: var(--title-primary);
+
+    text-transform: uppercase;
+    color: #f2f2f2;
+    font-weight: bolder;
+    font-size: 2.8rem;
+}
+
+.quemsomos {
+    height: 800px;
+}
+
+.quemsomos h2 {
+    margin-top: 80px;
+    font-size: 2rem;
+    color: #8C0E03;
+    font-weight: 800;
+}
