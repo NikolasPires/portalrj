@@ -1,6 +1,6 @@
-# Instruictions to run this code
+# Instructions to run this code
 
-first achive the frontend directory and download the react content
+first achieve the frontend directory and download the react content
 
 - cd frontend/
 - npm install
