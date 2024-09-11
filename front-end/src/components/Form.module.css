@@ -35,15 +35,19 @@ form[style*="block"] {
     opacity: 1; 
 }
 .formSec h2 {
+    display: inline-block;
     color: #A60530;
     text-transform: uppercase;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.308);
+    border-bottom: #8C0E03 2px solid;
     margin: 40px;
-    font-size: 2.2rem;
+    font-size: 2.4rem;
     font-family: var(--title-primary);
 }
 
 .formSec span {
-    margin: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
     cursor: pointer;
     font-size: 3.4rem;
 }
@@ -108,3 +112,4 @@ label {
     background-color: black;
     color: #FFF;
 }
+

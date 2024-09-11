@@ -16,6 +16,7 @@ export default function Header() {
     const handleClick = (e) => {
         //e.stopPropagation()
         setDisplay('flex')
+
     }
    
     useEffect(() => {
