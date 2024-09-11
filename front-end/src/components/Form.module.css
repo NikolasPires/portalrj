@@ -1,0 +1,110 @@
+
+form {
+    
+    display: none;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    background-color: rgba(0, 0, 0, 0.7); 
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+}
+
+
+form[style*="block"] {
+    display: flex;
+}
+
+
+.formSec {
+    position: relative; 
+    width: 1200px;
+    height: 800x;
+    padding: 20px;
+    background-color: #FFF;
+    z-index: 3; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    opacity: 1; 
+}
+.formSec h2 {
+    color: #A60530;
+    text-transform: uppercase;
+    margin: 40px;
+    font-size: 2.2rem;
+    font-family: var(--title-primary);
+}
+
+.formSec span {
+    margin: 20px;
+    cursor: pointer;
+    font-size: 3.4rem;
+}
+
+.formSec .closeForm {
+    display: flex;
+    justify-content: end;
+}
+
+.formSec .request {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSec input {
+    border-radius: 8px;
+    border: #0D0D0D 2px solid;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); 
+
+    text-align: center;
+    width: 600px;
+    height: 40px;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    color: #0D0D0D;
+}
+
+.formSec input:focus {
+    transition: .2s;
+    border: #A60530 2px solid;
+    outline: none;
+}
+label {
+    color: #0D0D0D;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.formSec button {
+    margin-top: 50px;
+    width: 300px;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #A60530;
+    
+    font-weight: 800;
+    font-size: 1.8rem;
+    font-family: var(--font-primary);
+}
+
+.formSec button:hover {
+    transition: .2s;
+    background-color: black;
+    color: #FFF;
+}

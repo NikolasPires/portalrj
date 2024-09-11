@@ -63,3 +63,13 @@ ul {
     background-color: #F2F2F2;
     color: #8C0E03;
 }
+
+
+.opaco {
+    opacity: 1;
+}
+
+.translucido {
+    transition: .5s;
+    opacity: 0.85;
+}

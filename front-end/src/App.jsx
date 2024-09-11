@@ -1,12 +1,16 @@
 import {Outlet} from 'react-router-dom'
 import Header from './components/Header.jsx'
+import { HeaderProvider } from './context/HeaderContext.jsx'
 
 function App() {
 
   return (
+    
     <>
-    <Header />
+    <HeaderProvider>
+      <Header />
       <Outlet />
+    </HeaderProvider>
     </>
   )
 }
