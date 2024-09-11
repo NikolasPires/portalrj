@@ -61,6 +61,7 @@ section {
 .images {
     display: flex;
     margin-left: 150px;
+    z-index: -1;
 }
 
 .overlay{
@@ -113,3 +114,4 @@ section {
 .brick {
     font-size: 2rem;
 }
+

@@ -3,11 +3,15 @@ import elementoVazado from '../assets/images/portal-rj-elemento-amarelo.jpg'
 import elementoMadeira from '../assets/images/portalrj-elementovazado-marrom.jpg'
 
 import { GiBrickWall } from "react-icons/gi";
+import Form  from '../components/Form';
+
 
 
 export default function Home() {
+    
     return (
         <section className={styles.home}>
+            <Form />
             <section className={styles.apresentacao}>
                 <h1>A arte em concreto em um só Lugar</h1>
             </section>
@@ -31,7 +35,6 @@ export default function Home() {
                 </article>
             </section>
             <section className={styles.produtos}>
-
             </section>
         </section>
     )
